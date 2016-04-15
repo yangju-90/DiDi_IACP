@@ -45,3 +45,6 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+GIS/Min_Alpha/
+*.iml
+code/Sample_the_data.ipynb
