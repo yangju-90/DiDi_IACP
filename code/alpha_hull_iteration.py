@@ -12,7 +12,7 @@ import arcpy
 
 # Load required toolboxes
 arcpy.ImportToolbox("Model Functions")
-arcpy.ImportToolbox("C:/Temp/c177/c177.tbx")
+arcpy.ImportToolbox("C:/temp/c177/c177.tbx")
 
 # Script arguments
 OD = arcpy.GetParameterAsText(0)
@@ -21,7 +21,7 @@ if OD == '#' or not OD:
 
 input_csv = arcpy.GetParameterAsText(1)
 if input_csv == '#' or not input_csv:
-    input_csv = "D:\\DiDi_IACP\\data\\month_1.csv" # provide a default value if unspecified
+    input_csv = "..data\\month_1.csv" # provide a default value if unspecified
 
 Value = arcpy.GetParameterAsText(2)
 if Value == '#' or not Value:
@@ -31,9 +31,9 @@ if Value == '#' or not Value:
 v_OD__min_alpha_cluster__Value__shp__5_ = ""
 v_OD__min_alpha_cluster__Value__shp__4_ = v_OD__min_alpha_cluster__Value__shp__5_
 month_1_Layer = "month_1_Layer"
-selected__Value__shp = "D:\\DiDi_IACP\\GIS\\Min_Alpha\\selected_%Value%.shp"
-minalphahull_polyline_shp = "D:\\DiDi_IACP\\GIS\\Min_Alpha\\minalphahull_polyline.shp"
-v_OD__min_alpha_cluster__Value__shp = "D:\\DiDi_IACP\\GIS\\Min_Alpha\\%OD%_min_alpha_cluster_%Value%.shp"
+selected__Value__shp = "..\\GIS\\Min_Alpha\\selected_%Value%.shp"
+minalphahull_polyline_shp = "..\\GIS\\Min_Alpha\\minalphahull_polyline.shp"
+v_OD__min_alpha_cluster__Value__shp = "..\\GIS\\Min_Alpha\\%OD%_min_alpha_cluster_%Value%.shp"
 
 # Process: For
 arcpy.IterateCount_mb("0", "733", "1")
