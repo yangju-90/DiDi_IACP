@@ -4,4 +4,4 @@
 
 ![Image of Results](https://github.com/yangju-90/DiDi_IACP/blob/master/plots/sample_results.jpg)
 
-[ Presentation ](https://docs.google.com/a/berkeley.edu/presentation/d/1oFBiQss4lQv8yB6SDi_HzAqrRV-wGjt2TOgnxmDM3Ao/edit?usp=sharing)
+[ Presentation ](https://docs.google.com/presentation/d/1oFBiQss4lQv8yB6SDi_HzAqrRV-wGjt2TOgnxmDM3Ao/edit#slide=id.p)
