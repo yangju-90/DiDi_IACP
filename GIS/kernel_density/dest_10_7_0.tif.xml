@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20160624</CreaDate><CreaTime>15212400</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.3\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\ExtractByAttributes" Date="20160624" Time="152124">ExtractByAttributes dest_10_7.tif "Value = 0" D:\Xu_Data\DiDi_IACP\GIS\kernel_density\dest_10_7_0.tif</Process></lineage></DataProperties></Esri></metadata>
